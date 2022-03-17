@@ -1,1 +1,0 @@
-# Filtering-rubiks.py
