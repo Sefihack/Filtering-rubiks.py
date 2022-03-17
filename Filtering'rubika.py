@@ -14,6 +14,13 @@ z = """
 
 []_______________________________________[] 
 
+            ∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆
+           ∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆
+          ∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆
+         ∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆
+        ∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆
+      []_________________________[] 
+
 """ 
 print(color.RED + (z)) 
 print(color.Green + "[1]: Filtering rubika") 
@@ -44,14 +51,20 @@ s = """
 
 """ 
 if filteringg == Filtering1:
+  time.sleep(1.0)
   print(color.RED + (s)) 
   print(color.Green + "(/5.7.3.6/t////H/h/6.7.3.0.2.4.4.6.7.1.3.2.6.8.4.5.6.0/)") 
 
 if filteringg == ib: 
-  print("ID rubika: {@restarting_Sefi}")
+  time.sleep(1.0)
   print(color.Green + "ID rubika: {@restarting_Sefi}")
+  time.sleep(0.7)
   print(color.Green + "ID rubika: {@restarting_Sefi}")
-        
+  time.sleep(0.5)
+  print(color.Green + "ID rubika: {@restarting_Sefi}")
+   
+if filteringg == exit: 
+    sys.exit(0)
         
         
         
